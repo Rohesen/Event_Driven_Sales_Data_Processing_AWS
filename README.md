@@ -1,6 +1,7 @@
 # Event_Driven_Sales_Data_Processing_using_AWS
 
-This project implements an **event-driven serverless data processing pipeline** on AWS for analyzing and storing e-commerce order data. The system ingests order files from Amazon S3, validates them with AWS Lambda, persists valid orders in DynamoDB, and routes failed records to an SQS Dead Letter Queue (DLQ).
+* This project implements an **event-driven serverless data processing pipeline** on AWS for analyzing and storing e-commerce order data. 
+* The system ingests order files from Amazon S3, validates them with AWS Lambda, persists valid orders in DynamoDB, and routes failed records to an SQS Dead Letter Queue (DLQ).
 
 
 
